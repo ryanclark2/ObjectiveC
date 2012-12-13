@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207FD97916798406005D7831 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207FD97816798406005D7831 /* Cocoa.framework */; };
+		207FD98316798406005D7831 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 207FD98116798406005D7831 /* InfoPlist.strings */; };
+		207FD98516798406005D7831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 207FD98416798406005D7831 /* main.m */; };
+		207FD98916798406005D7831 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 207FD98716798406005D7831 /* Credits.rtf */; };
+		207FD98C16798406005D7831 /* GVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 207FD98B16798406005D7831 /* GVAppDelegate.m */; };
+		207FD98F16798407005D7831 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207FD98D16798407005D7831 /* MainMenu.xib */; };
+		207FD997167A5F04005D7831 /* GVMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207FD996167A5F04005D7831 /* GVMessageController.m */; };
+		207FD99B167A6312005D7831 /* GVMessageReceiverBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 207FD99A167A6312005D7831 /* GVMessageReceiverBase.m */; };
+		207FD99E167A66FE005D7831 /* GVLoggingMessageReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 207FD99D167A66FE005D7831 /* GVLoggingMessageReceiver.m */; };
+		207FD9A1167A6A34005D7831 /* GVAlertPanelMessageReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 207FD9A0167A6A34005D7831 /* GVAlertPanelMessageReceiver.m */; };
+		207FD9A4167A7397005D7831 /* GVMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207FD9A3167A7396005D7831 /* GVMessageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		207FD97416798406005D7831 /* SimpleAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		207FD97816798406005D7831 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		207FD97B16798406005D7831 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		207FD97C16798406005D7831 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		207FD97D16798406005D7831 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		207FD98016798406005D7831 /* SimpleAppDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleAppDemo-Info.plist"; sourceTree = "<group>"; };
+		207FD98216798406005D7831 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		207FD98416798406005D7831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		207FD98616798406005D7831 /* SimpleAppDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleAppDemo-Prefix.pch"; sourceTree = "<group>"; };
+		207FD98816798406005D7831 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		207FD98A16798406005D7831 /* GVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVAppDelegate.h; sourceTree = "<group>"; };
+		207FD98B16798406005D7831 /* GVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GVAppDelegate.m; sourceTree = "<group>"; };
+		207FD98E16798407005D7831 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		207FD995167A5F04005D7831 /* GVMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVMessageController.h; sourceTree = "<group>"; };
+		207FD996167A5F04005D7831 /* GVMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVMessageController.m; sourceTree = "<group>"; };
+		207FD999167A6312005D7831 /* GVMessageReceiverBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVMessageReceiverBase.h; sourceTree = "<group>"; };
+		207FD99A167A6312005D7831 /* GVMessageReceiverBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVMessageReceiverBase.m; sourceTree = "<group>"; };
+		207FD99C167A66FE005D7831 /* GVLoggingMessageReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVLoggingMessageReceiver.h; sourceTree = "<group>"; };
+		207FD99D167A66FE005D7831 /* GVLoggingMessageReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVLoggingMessageReceiver.m; sourceTree = "<group>"; };
+		207FD99F167A6A34005D7831 /* GVAlertPanelMessageReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVAlertPanelMessageReceiver.h; sourceTree = "<group>"; };
+		207FD9A0167A6A34005D7831 /* GVAlertPanelMessageReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVAlertPanelMessageReceiver.m; sourceTree = "<group>"; };
+		207FD9A2167A7396005D7831 /* GVMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVMessageView.h; sourceTree = "<group>"; };
+		207FD9A3167A7396005D7831 /* GVMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVMessageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		207FD97116798406005D7831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207FD97916798406005D7831 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207FD96916798406005D7831 = {
+			isa = PBXGroup;
+			children = (
+				207FD97E16798406005D7831 /* SimpleAppDemo */,
+				207FD97716798406005D7831 /* Frameworks */,
+				207FD97516798406005D7831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		207FD97516798406005D7831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				207FD97416798406005D7831 /* SimpleAppDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		207FD97716798406005D7831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				207FD97816798406005D7831 /* Cocoa.framework */,
+				207FD97A16798406005D7831 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		207FD97A16798406005D7831 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				207FD97B16798406005D7831 /* AppKit.framework */,
+				207FD97C16798406005D7831 /* CoreData.framework */,
+				207FD97D16798406005D7831 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		207FD97E16798406005D7831 /* SimpleAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				207FD998167A62E0005D7831 /* Models */,
+				207FD98A16798406005D7831 /* GVAppDelegate.h */,
+				207FD98B16798406005D7831 /* GVAppDelegate.m */,
+				207FD9A2167A7396005D7831 /* GVMessageView.h */,
+				207FD9A3167A7396005D7831 /* GVMessageView.m */,
+				207FD98D16798407005D7831 /* MainMenu.xib */,
+				207FD995167A5F04005D7831 /* GVMessageController.h */,
+				207FD996167A5F04005D7831 /* GVMessageController.m */,
+				207FD97F16798406005D7831 /* Supporting Files */,
+			);
+			path = SimpleAppDemo;
+			sourceTree = "<group>";
+		};
+		207FD97F16798406005D7831 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				207FD98016798406005D7831 /* SimpleAppDemo-Info.plist */,
+				207FD98116798406005D7831 /* InfoPlist.strings */,
+				207FD98416798406005D7831 /* main.m */,
+				207FD98616798406005D7831 /* SimpleAppDemo-Prefix.pch */,
+				207FD98716798406005D7831 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		207FD998167A62E0005D7831 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				207FD999167A6312005D7831 /* GVMessageReceiverBase.h */,
+				207FD99A167A6312005D7831 /* GVMessageReceiverBase.m */,
+				207FD99C167A66FE005D7831 /* GVLoggingMessageReceiver.h */,
+				207FD99D167A66FE005D7831 /* GVLoggingMessageReceiver.m */,
+				207FD99F167A6A34005D7831 /* GVAlertPanelMessageReceiver.h */,
+				207FD9A0167A6A34005D7831 /* GVAlertPanelMessageReceiver.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		207FD97316798406005D7831 /* SimpleAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207FD99216798407005D7831 /* Build configuration list for PBXNativeTarget "SimpleAppDemo" */;
+			buildPhases = (
+				207FD97016798406005D7831 /* Sources */,
+				207FD97116798406005D7831 /* Frameworks */,
+				207FD97216798406005D7831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleAppDemo;
+			productName = SimpleAppDemo;
+			productReference = 207FD97416798406005D7831 /* SimpleAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207FD96B16798406005D7831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GV;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ryan Clark";
+			};
+			buildConfigurationList = 207FD96E16798406005D7831 /* Build configuration list for PBXProject "SimpleAppDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 207FD96916798406005D7831;
+			productRefGroup = 207FD97516798406005D7831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				207FD97316798406005D7831 /* SimpleAppDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		207FD97216798406005D7831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207FD98316798406005D7831 /* InfoPlist.strings in Resources */,
+				207FD98916798406005D7831 /* Credits.rtf in Resources */,
+				207FD98F16798407005D7831 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		207FD97016798406005D7831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207FD98516798406005D7831 /* main.m in Sources */,
+				207FD98C16798406005D7831 /* GVAppDelegate.m in Sources */,
+				207FD997167A5F04005D7831 /* GVMessageController.m in Sources */,
+				207FD99B167A6312005D7831 /* GVMessageReceiverBase.m in Sources */,
+				207FD99E167A66FE005D7831 /* GVLoggingMessageReceiver.m in Sources */,
+				207FD9A1167A6A34005D7831 /* GVAlertPanelMessageReceiver.m in Sources */,
+				207FD9A4167A7397005D7831 /* GVMessageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		207FD98116798406005D7831 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207FD98216798406005D7831 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		207FD98716798406005D7831 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207FD98816798406005D7831 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		207FD98D16798407005D7831 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207FD98E16798407005D7831 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		207FD99016798407005D7831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		207FD99116798407005D7831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		207FD99316798407005D7831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleAppDemo/SimpleAppDemo-Prefix.pch";
+				INFOPLIST_FILE = "SimpleAppDemo/SimpleAppDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		207FD99416798407005D7831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleAppDemo/SimpleAppDemo-Prefix.pch";
+				INFOPLIST_FILE = "SimpleAppDemo/SimpleAppDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		207FD96E16798406005D7831 /* Build configuration list for PBXProject "SimpleAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207FD99016798407005D7831 /* Debug */,
+				207FD99116798407005D7831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207FD99216798407005D7831 /* Build configuration list for PBXNativeTarget "SimpleAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207FD99316798407005D7831 /* Debug */,
+				207FD99416798407005D7831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 207FD96B16798406005D7831 /* Project object */;
+}
