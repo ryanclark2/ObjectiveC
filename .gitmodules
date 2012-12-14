@@ -1,0 +1,3 @@
+[submodule "AGoodStart"]
+	path = AGoodStart
+	url = ./CommandLineTools/AGoodStart/
