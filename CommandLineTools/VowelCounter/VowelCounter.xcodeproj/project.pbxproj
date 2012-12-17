@@ -10,6 +10,7 @@
 		20AA1584167BCDC5000512AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AA1583167BCDC5000512AC /* Foundation.framework */; };
 		20AA1587167BCDC5000512AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AA1586167BCDC5000512AC /* main.m */; };
 		20AA158B167BCDC5000512AC /* VowelCounter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 20AA158A167BCDC5000512AC /* VowelCounter.1 */; };
+		20AA1596167BCE3A000512AC /* NSString+VowelCounting.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AA1595167BCE3A000512AC /* NSString+VowelCounting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		20AA1586167BCDC5000512AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20AA1589167BCDC5000512AC /* VowelCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VowelCounter-Prefix.pch"; sourceTree = "<group>"; };
 		20AA158A167BCDC5000512AC /* VowelCounter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = VowelCounter.1; sourceTree = "<group>"; };
+		20AA1594167BCE3A000512AC /* NSString+VowelCounting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VowelCounting.h"; sourceTree = "<group>"; };
+		20AA1595167BCE3A000512AC /* NSString+VowelCounting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VowelCounting.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		20AA1574167BCDC5000512AC = {
 			isa = PBXGroup;
 			children = (
+				20AA1594167BCE3A000512AC /* NSString+VowelCounting.h */,
+				20AA1595167BCE3A000512AC /* NSString+VowelCounting.m */,
 				20AA1585167BCDC5000512AC /* VowelCounter */,
 				20AA1582167BCDC5000512AC /* Frameworks */,
 				20AA1580167BCDC5000512AC /* Products */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20AA1587167BCDC5000512AC /* main.m in Sources */,
+				20AA1596167BCE3A000512AC /* NSString+VowelCounting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

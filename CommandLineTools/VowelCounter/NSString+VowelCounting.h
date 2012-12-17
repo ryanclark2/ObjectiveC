@@ -10,4 +10,6 @@
 
 @interface NSString (VowelCounting)
 
+- (int)vowelCount;
+
 @end
