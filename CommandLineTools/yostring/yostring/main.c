@@ -20,23 +20,15 @@ int main(int argc, const char * argv[])
     }
     
     // Get a pointer to 5 bytes of memory in the heap
-    char *start = malloc(5);
-    
-    start[0] = 'L';
-    start[1] = 'o';
-    start[2] = 'v';
-    start[3] = 'e';
-    start[4] = '\0';
+    char *start = "Love";
+  
     
     // Print out the string and its length
     printf("%s has %zu characters\n", start, strlen(start));
     
     // Print out the third letter
     printf("The third letter is %c\n", start[2]);
-    
-    // Free the memory so that is can be reused
-    free(start);
-    start=NULL;
+
     return 0;
 }
 
